@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.list-item{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 392px;
+  max-height: 312px;
+  padding: 16px;
+}
+
+.Products-list{
+  list-style: none;
+display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 184px;
+padding: 0px;
+}
+
+.Products-list li {
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+    font-size: 16px;
+    border: 2px solid #2e2f42;
+
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin: 0px;
+    padding: 8px 0 8px 16px;
+}
+
+/* ===============task-2====================== */
+
+.gallery{
+ display: flex;
+ flex-wrap: wrap;
+ row-gap: 48px;
+ column-gap: 24px;
+ list-style: none;
+ margin: 0 auto;
+}
+
+/* ================task-3============================= */
+ .input{
+  width: 360px;
+    height: 40px;
+ }
+
+ /* ====================tasc-4======================================= */
+
+ .login-form{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 256px;
+    gap: 24px;
+    background-color: #fff;
+ }
+
+ .login-form label{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+    font-size: 16px;
+  color: #2e2f42;
+
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+ }
+
+    .login-form input {
+      width: 360px;
+      height: 30px;
+      color: #2e2f42;
+    }
+
+
+    .login-form button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    border-radius: 8px;
+      padding-block: 8px;
+      padding-inline: 16px;
+      width: 86px;
+      height: 40px;
+     
+      background: #4e75ff;
+    }
+
+
+    /* ===================tasc-5================================= */
+
+    
+.widget{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    padding-block: 100px;
+    padding-inline: 88px;
+    width: 345px;
+    height: 280px;
+     background: #fff;
+     
+
+}
+
+.change-color{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+
+border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+}
+
+.widget p{
+   width: 200px;
+}
